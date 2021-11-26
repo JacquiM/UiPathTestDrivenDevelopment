@@ -1,0 +1,80 @@
+{
+  "name": "BPR_Financial_Analyis",
+  "description": "The process is responsible for financial calculations and analysis",
+  "main": "Business Logic\\Calculations\\CalculateBreakeven.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[21.10.2]",
+    "UiPath.Testing.Activities": "[1.4.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c00e715e-7a72-4a7b-96da-d858caedec6c",
+        "dataVariationFilePath": ".variations\\TestData_CalculateBreakeven_Sheet1.json",
+        "fileName": "Tests\\Unit Tests\\Business Logic\\Calculations\\TestCase_NegativeValues.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "85ee5685-3a66-422b-a030-779bfa6b72b0",
+        "dataVariationFilePath": ".variations\\TestData_CalculateBreakeven_Sheet1_1.json",
+        "fileName": "Tests\\Unit Tests\\Business Logic\\Calculations\\TestCase_PositiveValues.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4a6a1466-0d0b-4e69-b922-04901fbaf10f",
+        "dataVariationFilePath": ".variations\\TestData_CalculateBreakeven_Sheet1_2.json",
+        "fileName": "Tests\\Unit Tests\\Business Logic\\Calculations\\TestCase_ZeroValues.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f5ce5d86-9079-4476-aa29-c2867507c6d8",
+        "dataVariationFilePath": ".variations\\TestData_CalculateBreakeven_Sheet1_2.json",
+        "fileName": "Tests\\Unit Tests\\Business Logic\\Calculations\\UnitTest_CalculateBreakeven.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Business Logic\\Calculations\\CalculateBreakeven.xaml",
+      "uniqueId": "45c17c5d-4c64-4c11-bb1a-784489f5065c",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
